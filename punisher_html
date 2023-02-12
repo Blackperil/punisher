@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta name="viewport" content="width=device-width" initial-scale="1.0" >
+        <link rel="stylesheet" href="css/damien.css">
+        <link rel="icon" type="image/x-icon" href="images/deadpoolpan.jpg">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <script type="text/javascript">
+            var isPlaying = false;
+            function autoplay(){
+                if (isPlaying) {
+                    return;
+                }
+                isPlaying = true;
+                document.getElementById("audio").play();
+            }
+         </script>
+    </head>
+
+    <body onclick="autoplay()">
+        
+        <div class="gridcontainer">
+       <div class="header">
+             <h1> 
+                 <span
+                 class="multicolortext">damien alexander updike</span>
+            
+             </h1>
+             <h3>
+               <img src="images/enbywings.png">
+             </h3>
+             <h2>
+                <img src="images/enbywings.png">
+             </h2>
+             
+             </div>
+        <div class="left sidenav">
+            <a href="index.html"> home</a>
+            <a href="2ndpage.html">2nd page</a>
+            <a href="3rdpage.html">3rd page</a>
+            <a href="4thpage.html">4th page</a>
+            <a href="https://www.archiveofourown.org">fanfiction</a>
+
+        </div>
+        <div class="main-content">
+            <audio id="audio">
+                <source src="Tyler Bates - Escape The Base (the Punisher 2017) [mp3clan].mp3" type="audio/mpeg">
+              </audio>     
+              <div class="card">
+                <img src="images/me.jpg">
+                <p>Hello, im damien. Im 18 years old, my pronouns are he/him. I love music and learning, especially foreign languages. My favorite is german. </p>
+            </div>  
+             <div class="card">
+                <img src="images/dabi.jpg">
+                <p>I've made two friends so far, one from cinergy and another from tcc. Keigo is my protector, i've had him for about 3 years now and i love him. He has always been there for me when i really need it. I'm going to get bats as my first tattoo which is inspired by eddie but its more of an overall comfort meaning for me, like how bats are also with the my chem lore and certain spiritual beings i feel protected and empowered by. </p>
+             </div>
+        </div>
+        <div class="right sidenav">
+        </div>
+        <div class="footer">
+            
+        </div>
+    </div>
+    </body>
+
+    </html>
